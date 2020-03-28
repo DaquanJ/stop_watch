@@ -1,13 +1,19 @@
 .App {
   text-align: center;
   margin-top: 10%;
-
 }
 
 #title {
   font-family: 'Raleway', sans-serif;
   font-size: 100px;
   font-weight: bold;
+}
+
+#des {
+  margin-top: -6%;
+  margin-left: 20%;
+  font-family: 'Raleway', sans-serif;
+  color: green;
 }
 
 #count {

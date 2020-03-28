@@ -30,7 +30,7 @@ class Watch extends Component {
         return (
             <div className='watch' >
             <h1 id='title' > STOP WATCH  </h1>
-            <p> KEEP TRACK OF YOUR TIME ! </p>
+            <p id='des' > KEEP TRACK OF YOUR TIME ! </p>
             <h1 id='count' > {count} </h1>
             <div className='buttons'>
             <button onClick={this.handleStart} > START </button>
