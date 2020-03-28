@@ -1,10 +1,16 @@
 Order of operations:
-        Create components for each element type (h1,button) - used one for simplicity (turned buttons comp into overall comp)
+        Create components for each element type (h1,button) - used one for simplicity (turned buttons comp into watch comp)
         Create a h1 element to pass information to
         create 3 buttons (start,pause,restart)
-        utilizing the buttons class component include a function that increments numbers by one on click
-        pass that function to the start button
-        utilizing the buttons class component include a function that holds incrementation on click
-        pass that function to the pause button
-        utilizing the buttons class component include a function that refreshes the page on click that include the preventdefault function
-        pass that function to the restart button
+        utilizing a class component include a function that increments numbers by one on click
+        use setInterval to automate the update of incrementation by 1s (1000)
+        include setState to manipulate the default state of count
+        pass a reference to that function to the start button
+        utilizing a class component include a function that holds incrementation on click
+        use clearInterval to stop setInterval from updating
+        pass a variable assigned to setInterval as an argument in clearInterval function
+        pass a reference to that function to the pause button
+        utilizing a class component include a function that restarts the watch
+        use setState to call the default state 
+        use another instance of clearInterval to stop the count as well
+        pass a reference to that function to the restart button
