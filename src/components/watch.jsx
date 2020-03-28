@@ -29,6 +29,8 @@ class Watch extends Component {
         const {count} = this.state;
         return (
             <div className='watch' >
+            <h1 id='title' > STOP WATCH  </h1>
+            <p></p>
             <h1 id='count' > {count} </h1>
             <div className='buttons'>
             <button onClick={this.handleStart} > START </button>

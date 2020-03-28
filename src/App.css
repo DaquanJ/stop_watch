@@ -1,6 +1,13 @@
 .App {
   text-align: center;
   margin-top: 10%;
+
+}
+
+#title {
+  font-family: 'Raleway', sans-serif;
+  font-size: 100px;
+  font-weight: bold;
 }
 
 #count {
@@ -14,6 +21,7 @@
   padding: 1%;
   margin-left: 1%;
   border: none;
+  border-radius: 5%;
   font-weight: bold;
   background-color: black;
   color: white;
