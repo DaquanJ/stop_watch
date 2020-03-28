@@ -28,11 +28,13 @@ class Watch extends Component {
     render() {
         const {count} = this.state;
         return (
-            <div>
-            <h1> {count} </h1>
+            <div className='watch' >
+            <h1 id='count' > {count} </h1>
+            <div className='buttons'>
             <button onClick={this.handleStart} > START </button>
             <button onClick={this.handlePause} > PAUSE </button>
             <button onClick={this.handleRestart} > RESTART </button>
+            </div>
             </div>
         );
     }
