@@ -1,5 +1,21 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## app description 
+
+This app is a stopwatch component that: 
+
+Allows the user to press a button "Start" to start the stopwatch
+the incrementing time is displayed in seconds
+Allows the user to press a button "Pause" to pause the stopwatch at the current time
+Allows the user to press a button "Reset" to stop the stopwatch and reset the time to 0
+
+
+
+
+
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:
