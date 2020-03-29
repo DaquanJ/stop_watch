@@ -2,12 +2,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## app description 
 
-This app is a stopwatch component that: 
+This app is a stopwatch: 
 
-Allows the user to press a button "Start" to start the stopwatch
-the incrementing time is displayed in seconds
-Allows the user to press a button "Pause" to pause the stopwatch at the current time
-Allows the user to press a button "Reset" to stop the stopwatch and reset the time to 0
+Allows the user to press a button "Start" to start the stopwatch </br>
+the incrementing time is displayed in seconds </br>
+Allows the user to press a button "Pause" to pause the stopwatch at the current time </br>
+Allows the user to press a button "Reset" to stop the stopwatch and reset the time to 0 </br>
 
 
 
