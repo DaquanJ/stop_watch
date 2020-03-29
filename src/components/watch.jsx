@@ -6,7 +6,7 @@ class Watch extends Component {
     constructor(props) {
         super(props)
     // super is an inheritance key word used to inherit methods from the parent class created within its constructor
-    // the argument passes (props) is what we are inheriting  
+    // the argument passed (props) is what we are inheriting  
         this.state = {
             count: 0
         }
